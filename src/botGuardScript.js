@@ -4,7 +4,7 @@ import { BG } from 'bgutils-js'
 // in src/main/poTokenGenerator.js
 export default async function(visitorData) {
   const requestKey = 'O43z0dpjhgX20SCx4KAo'
-
+//Possibly needs a new requestKey ^??
   const bgConfig = {
     fetch: (input, init) => fetch(input, init),
     requestKey,
